@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.preloader {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: all 0.3s linear;
+}
+
+header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 200px 0px;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+h1 {
+    color: white;
+    line-height: 1;
+    letter-spacing: 0.5rem;
+    font-size: 35px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+}
